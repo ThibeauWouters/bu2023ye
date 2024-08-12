@@ -3,7 +3,7 @@ export NUMEXPR_NUM_THREADS=1
 export OMP_NUM_THREADS=1
 
 ### User settings here:
-export prior_filename=AT2017gfo_dL_free # choose prior, also used as label
+export prior_filename=AT2017gfo_dL40_KNtheta # choose prior, also used as label
 
 mpiexec -np 16 lightcurve-analysis \
     --model Bu2023Ye \
